@@ -1,0 +1,47 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+/* common */
+/* layout */
+
+.container {
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+
+    /* debug */
+    border: 2px solid black;
+   
+}
+
+.header .container{
+    background-color:orange;
+    padding: 10px;
+}
+
+/* header */
+
+.header {
+
+    background-color: aqua;
+    padding: 20px;
+    /* height: 20px; */
+    
+}
+
+.row {
+    display: flex;
+    justify-content: space-between
+}
+
+
+.links {
+    display: flex;
+
+}
+
