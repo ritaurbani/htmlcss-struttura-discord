@@ -10,7 +10,7 @@
 /* layout */
 
 .container {
-    width: 80%;
+    width: 70%;
     max-width: 900px;
     margin: 0 auto;
 
@@ -42,24 +42,78 @@
 
 .links {
     display: flex;
+    margin: 0 8px;
+    }
 
-}
 
 /* main */
+/*section*/
 
-.section {
-    background-color: blue;
-    /* padding: 10px; */
-    padding: 10px 0;
+section {
+    padding: 25px 0;
+
 }
 
+.blue {
+    background-color: blue;c
+ 
+}
+
+.white {
+        background-color: white;
+}
+
+.grey {
+    background-color: lightgrey;
+}
+
+
 .hero-container {
-    background-color: deeppink;
+    background-color:hotpink;
     min-height: 300px;
-    width: 80%;
+    width: 40%;
     max-width: 900px;
     margin: 0 auto;
     
 }
 
 
+/* .row {
+    display: flex;
+    justify-content: space-between;
+} */
+
+/* debug */
+/* [class^="col-"] {
+    border: 2px solid green;
+    min-height: 300px;
+} */
+
+.two-col {
+    display: flex;
+    justify-content: space-between;
+    /* border: 2px solid green; */
+    min-height: 300px;
+
+}
+
+.col-70 {
+    background-color:deepskyblue ;
+    width: 60%
+
+}
+
+.col-30 {
+    background-color:pink ;
+    width: 40%
+
+}
+
+
+
+.green {
+
+    background-color: limegreen;
+    height: 600px;
+    
+}
