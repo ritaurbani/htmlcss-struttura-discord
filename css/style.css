@@ -15,7 +15,7 @@
     margin: 0 auto;
 
     /* debug */
-    border: 2px solid black;
+    /* border: 2px solid black; */
    
 }
 
@@ -44,4 +44,22 @@
     display: flex;
 
 }
+
+/* main */
+
+.section {
+    background-color: blue;
+    /* padding: 10px; */
+    padding: 10px 0;
+}
+
+.hero-container {
+    background-color: deeppink;
+    min-height: 300px;
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+    
+}
+
 
