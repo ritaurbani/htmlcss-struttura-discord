@@ -13,6 +13,7 @@
     width: 70%;
     max-width: 900px;
     margin: 0 auto;
+    border-style: dashed;
 
     /* debug */
     /* border: 2px solid black; */
@@ -55,7 +56,8 @@ section {
 }
 
 .blue {
-    background-color: blue;c
+    background-color: blue;
+    
  
 }
 
@@ -74,6 +76,7 @@ section {
     width: 40%;
     max-width: 900px;
     margin: 0 auto;
+    border-style:dashed;
     
 }
 
@@ -99,21 +102,53 @@ section {
 
 .col-70 {
     background-color:deepskyblue ;
-    width: 60%
+    width: 60%;
+    
 
 }
 
 .col-30 {
     background-color:pink ;
-    width: 40%
+    width: 40%;
+
 
 }
-
 
 
 .green {
 
     background-color: limegreen;
     height: 600px;
+    border-style: dashed;
+    
+}
+
+.five-col {
+display: flex;
+    /* border: 2px solid green; */
+    min-height: 300px;
+}
+
+.col-15 {
+    background-color: aquamarine;
+        width: 40%;
+    }
+
+
+.col-40 {
+background-color:lightcoral;
+width:40%;
+}
+
+.flex {
+
+    display: flex;
+    justify-content: space-between;
+    background-color: aqua;
+    height: 40px;
+
+}
+
+.item {
     
 }
