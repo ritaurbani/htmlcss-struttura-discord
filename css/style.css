@@ -1,3 +1,18 @@
+/*#be68be
+#00008B
+#1E90FF,
+#FFC0CB,
+#D3D3D3,
+#228B22,
+#20B2AA,
+#F08080,
+#7FFFD4,
+#23272A,
+#FFB6C1,
+#DAA520/
+
+
+
 /* reset */
 
 * {
@@ -20,7 +35,7 @@
 }
 
 .header .container {
-    background-color: orange;
+    background-color: #DAA520;
 }
 
 /* header */
@@ -59,20 +74,20 @@ section {
 }
 
 .blue {
-    background-color: blue;
+    background-color: #00008B;
 }
 
 .white {
-    background-color: white;
+    background-color: #FFFFFF;
 }
 
 .grey {
-    background-color: lightgrey;
+    background-color: #D3D3D3;
 }
 
 
 .hero-container {
-    background-color: hotpink;
+    background-color: #be68be;
     min-height: 300px;
     width: 40%;
     max-width: 900px;
@@ -98,17 +113,17 @@ section {
 }
 
 .col-70 {
-    background-color: deepskyblue;
+    background-color: #1E90FF;
     width: 60%;
 }
 
 .col-30 {
-    background-color: pink;
+    background-color: #FFC0CB;
     width: 40%;
 }
 
 .green {
-    background-color: limegreen;
+    background-color: #228B22;
     height: 600px;
     border-style: dashed;
 }
@@ -121,13 +136,13 @@ section {
 }
 
 .col-15  {
-    background-color: aquamarine;
+    background-color: #20B2AA;
     width: 40%;
 }
 
 
 .col-40 {
-    background-color: lightcoral;
+    background-color: #F08080;
     width: 40%;
 
     border-right-style: dashed;
@@ -136,7 +151,7 @@ section {
 .flex {
     display: flex;
     justify-content: space-between;
-    background-color: aqua;
+    background-color: #7FFFD4;
     height: 40px;
     margin-top: 15px;
     padding: 20px 0px 20px;
@@ -144,7 +159,7 @@ section {
 }
 
 .footer {
-    background-color: black;
+    background-color: #23272A;
     padding-top: 15px;
 }
 
@@ -152,7 +167,7 @@ section {
 
 .has-left-dashed-border {
     border-left-style: dashed;
-    border-left-color: white;
+    border-left-color: #FFFFFF;
 }
 /* .has-left-dashed-border {
     border-left-style: dashed;
@@ -165,14 +180,14 @@ section {
 } */
 
 .btn {
-    background-color: pink;
+    background-color: #FFB6C1;
     padding: 5px;
 }
 
 .item1 {
-    background-color: pink;
+    background-color: #FFB6C1;
     padding: 5px;
-    border: 1px solid black;
+    border: 1px solid #23272A;
 }
 
 
